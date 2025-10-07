@@ -14,3 +14,8 @@ Nisto a inteligência artificial gerou um diagrama agora com todos os métodos n
 
 ![Diagrama de Classe](Untitled%20diagram-2025-10-07-201130.png)
 
+##Pompt 2 
+> Tendo em vista o nosso programa de carro, me diga, como você faria a organização de classes e interfaces para nosso carro, o peso das peças pode ser qualquer um, tudo de acordo com o padrão composite
+
+A IA sugeriu implementar primeiro a interface, depois as peças simples, depois as compostas e por ultimo a classe carro que extende as peças compostas, a montagem do carro seria feita no main, até aí a estrutura foi satisfatória, as únicas modificações realizadas foram das saídas na tela,o código anterior apenas mostrava na tela o peso total do carro, com os ajustes feitos agora ele mostra a soma de cada peça.
+
