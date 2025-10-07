@@ -1,8 +1,7 @@
 package car;
 
 public class Main {
-	
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         // Peças simples
         ComponenteCarro motor = new PecaSimples("Motor", 250);
         ComponenteCarro transmissao = new PecaSimples("Transmissão", 100);
@@ -24,15 +23,12 @@ public class Main {
         chassi.adicionar(tremDeForca);
         chassi.adicionar(suspensao);
 
-        // Carro (classe concreta que estende PecaComposta)
+        // Carro completo
         Carro carro = new Carro("Carro Esportivo");
         carro.adicionar(chassi);
         carro.adicionar(carroceria);
         carro.adicionar(capo);
 
-        // Exibir resultado
         carro.exibirDetalhes();
     }
-
-
 }

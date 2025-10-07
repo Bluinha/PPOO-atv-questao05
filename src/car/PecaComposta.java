@@ -23,7 +23,10 @@ public class PecaComposta implements ComponenteCarro {
     public double getPeso() {
         double total = 0;
         for (ComponenteCarro c : componentes) {
-            total += c.getPeso();
+            double pesoParte = c.getPeso();
+            total += pesoParte;
+            System.out.println("Somando agora o peso de " + c.getNome() + ": " + pesoParte + 
+                               ". Total parcial: " + total);
         }
         return total;
     }
