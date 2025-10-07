@@ -4,3 +4,4 @@ public interface ComponenteCarro {
 	 double getPeso();
 	 String getNome();       
 }
+
