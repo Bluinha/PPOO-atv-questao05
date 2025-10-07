@@ -12,4 +12,5 @@
  
 Nisto a inteligência artificial gerou um diagrama agora com todos os métodos necessários, porém isso o deixou muito poluído e complexo, assim, ainda foi necessário o processo manual de enxugar as informações, com isso temos o seguinte diagrama feito a partir do código em formato mermaid renderizado em imagem através de uma ferramenta própria para isso:
 
-![Diagrama de classe da questao carro](Untitled diagram-2025-10-07-201130.png)
+![Diagrama de Classe](Untitled%20diagram-2025-10-07-201130.png)
+
